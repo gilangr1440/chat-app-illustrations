@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/4113a18337.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/CSS/css-reset.css" />
+    <link rel="stylesheet" href="styles/CSS/style.css" />
+
+    <title>Frontend Mentor | Chat App Illustration</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background__top"></div>
+    <div class="background__bottom"></div>
+
+    <div class="background-desktop">
+      <div class="background-desktop__top"></div>
+      <div class="background-desktop__bottom"></div>
+    </div>
+
+    <main class="main">
+      <section class="illustration-section">
+        <div class="device">
+          <div class="device__top-section"></div>
+          <div class="device__header">
+            <div class="device__back">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="device__avatar-container">
+              <img src="images/avatar.jpg" alt="avatar" class="device__avatar" />
+            </div>
+            <div class="device__name-container">
+              <h1 class="device__name">Samuel Green</h1>
+              <p class="device__availability">Available to Walk</p>
+            </div>
+            <div class="device__more-container">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="device__body">
+            <p class="device__text-message device__text-message_left">That sounds great. I’d be happy to discuss more.</p>
+            <p class="device__text-message device__text-message_left">Could you send over some pictures of your dog, please?</p>
+            <div class="device__images-container">
+              <img src="images/dog-image-1.jpg" alt="dog" class="device__image" />
+              <img src="images/dog-image-2.jpg" alt="dog" class="device__image" />
+              <img src="images/dog-image-3.jpg" alt="dog" class="device__image" />
+            </div>
+            <p class="device__text-message device__text-message_right">Here are a few pictures. She’s a happy girl!</p>
+            <p class="device__text-message device__text-message_right device__text-message_mb">Can you make it?</p>
+            <p class="device__text-message device__text-message_left">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            <div class="device__option-container">
+              <div class="device__option-circle"></div>
+              <p class="device__option-duration">30 minute walk</p>
+              <p class="device__option-price">$29</p>
+            </div>
+            <div class="device__option-container">
+              <div class="device__option-circle"></div>
+              <p class="device__option-duration">1 hour walk</p>
+              <p class="device__option-price">$49</p>
+            </div>
+          </div>
+          <div class="device__input-container">
+            <div class="device__input-white-spot">
+              <input type="text" placeholder="Type a message…" class="device__input-field" />
+              <div class="device__send-container">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-section">
+        <h1 class="text-section__title">Simple booking</h1>
+        <p class="text-section__desc">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+        </p>
+      </section>
+    </main>
+
+    <footer class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/gilangr1440/">Gilang Ramadhan</a>.</footer>
+  </body>
+</html>
