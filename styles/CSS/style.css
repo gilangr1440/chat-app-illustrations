@@ -16,7 +16,7 @@ body {
   max-width: 250px;
   width: 50vw;
   height: 70vh;
-  background-color: hsl(264, 100%, 61%);
+  background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   border-radius: 0 0 50vw 0;
   position: absolute;
   top: 0;
@@ -302,7 +302,7 @@ body {
     max-width: none;
     width: 35vw;
     height: 90vh;
-    background-color: hsl(264, 100%, 61%);
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     border-radius: 0 0 40vw 40vw;
     position: absolute;
     left: -8vw;

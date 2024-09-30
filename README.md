@@ -11,10 +11,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/chat-app-css-illustration-lPd0wXGJWB)
+- Live Site URL: [live site URL here](https://gilangr1440.github.io/chat-app-illustrations/)
 
 ## My process
 
